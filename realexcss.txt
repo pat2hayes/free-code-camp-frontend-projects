@@ -1,0 +1,148 @@
+/*----------------- MAIN CONTAINER -----------------*/
+
+
+/*SET NEW FONT*/
+@import 'https://fonts.googleapis.com/css?family=Abel';
+/*
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+*/
+/* to expand the width to full width or any other size. max-width: 100%;*/
+#rxp-hpp{
+background: #ffffff;
+font-family: 'Abel', sans-serif;
+}
+#another-card-section {
+background: #f9f9f9;
+padding-top:20px;
+}
+#another-card-section .panel-title, #saved-card-section .panel-title{
+color: #990033;
+}
+
+.panel-group .panel {
+ border-radius: 0px;
+}
+/*----------------- HEADER -----------------*/
+
+#rxp-header {
+margin-bottom: 0px;
+}
+#rxp-header-title{
+background: transparent;
+color: #990033;
+padding: 20px 30px 0px 0px;
+font-size: 1.5em;
+}
+/*----------------- FORM -----------------*/
+.panel {
+border-color: #ffffff;
+}
+#rpx-another-card {
+margin-top: 30px;
+}
+#rpx-cardnum-section .form-group{
+display: flex;
+width: 100%;
+}
+/* This is to change the look and size of the labels */
+#rpx-another-card .control-label{
+font-family: 'Abel', sans-serif;
+margin-top:15px;
+	}
+/* This is to change the look and size of the input */
+#rpx-another-card .form-control{
+border:0px;
+height:50px;
+background-color:#dddddd;
+font-family: 'Abel', sans-serif;
+border-radius: 0px;
+}
+#rpx-another-card .has-error .form-control{
+background-color:#ffcccc;
+}
+.input-group-addon {
+ background-color: #990033;
+ border: 0px solid #9900cc;
+ color:#ffffff;
+}
+/* the following are to allow the label on the left and the input on the right */
+#rpx-cardnum-section{
+position:relative;
+}
+#rpx-cardnum-title{
+width:50%;
+}
+#rpx-cardnum-item{
+position:absolute;
+top:-25px;
+right:0px;
+}
+#rpx-expiry-date{
+margin-bottom: 10px
+}
+#rpx-expiry-date .col-xs-5{
+width:20%;
+}
+#rpx-expiry-date .slash{
+width:10%;
+margin-top: 10px;
+}
+#rpx-expiry-date, #rpx-security-code{
+width: 100%;
+}
+#rpx-date-cccvc-section .form-group .col-xs-12, #rpx-cardholder-section .form-group .col-xs-12{
+width: 50%;
+}
+#rpx-cardnum-title, #rpx-cardnum-item{
+width: 50%;
+}
+#rpx-cardnum-box{
+width: 50%;
+}
+
+
+/*----------------- DCC -----------------*/
+.btn-dcc.active {
+border-bottom: 2px solid #990033;
+}
+.rxp-dcc-offer-legal {
+font-size: .7em;
+}
+.panel-dcc .panel-body .rxp-title{
+font-size:1.2em;
+color:#990033;
+}
+.dcc-title-box{
+line-height:1.1em;
+}
+
+/*----------------- CARD MANAGEMENT -----------------*/
+#rpx-saved-card .control-label, #rpx-another-card .control-label{
+font-family: 'Abel', sans-serif;
+}
+#rpx-saved-card .panel-saved-card:hover {
+border-top: 1px solid #990033;
+border-bottom: 1px solid #990033;
+}
+
+
+/*----------------- BUTTON -----------------*/
+/* this is the actual button */
+#main-btn-box .btn-hpp-a {
+font-size: 1.25em;
+background-color:#990033;
+font-weight:100;
+margin-bottom:20px;
+box-shadow: 1px 2px 6px #cbcbcb;
+
+}
+
+
+/*----------------- FOOTER -----------------*/
+/* this is for the entire footer */
+#rxp-footer {
+display:none;
+}
+
+
+
